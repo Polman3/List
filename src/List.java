@@ -28,7 +28,7 @@ public class List {
         System.out.println("Pierwszy element listy to " + imie);
 
         //usuwamy ostatni element listy
-        //lista.remove(lista.size()-1);
+        lista.remove(lista.size()-1);
 
         for(int i=0; i<lista.size(); i++){
             imie = lista.get(i);
